@@ -1,9 +1,9 @@
-const players = [
-  {id: 1, name: 'Semen'},
-  {id: 2, name: 'Oleg'},
-  {id: 3, name: 'Misha'}
+const fighters = [
+  {id: 41, name: 'Super semen'},
+  {id: 3, name: 'misha'},
+  {id: 22, name: 'Oleg'}
 ];
 
-for (const {id, name} of fighters) {
-  console.log(`[${id}]: ${name}`)
+for (const fighter of fighters) {
+  console.log(`(${fighter.id}): ${fighter.name}`)
 }
