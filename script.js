@@ -1,7 +1,7 @@
 const fighters = [
-  {id: 41, name: 'Super semen'},
-  {id: 3, name: 'misha'},
-  {id: 22, name: 'Oleg'}
+  {id: 1, name: 'Super semen'},
+  {id: 2, name: 'Oleg'},
+  {id: 3, name: 'MishaLox'}
 ];
 
 for (const fighter of fighters) {
